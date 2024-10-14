@@ -9,4 +9,4 @@ jobs:
      - name: P12 Cracker
        run: |
             chmod +x cracker
-            ./cracker TEST.p12
+            ./cracker dev_certificate.p12 7
