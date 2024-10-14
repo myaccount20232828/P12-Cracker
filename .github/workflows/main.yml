@@ -1,0 +1,11 @@
+name: P12 Cracker
+on:
+  push:
+jobs:
+  P12Cracker:
+    runs-on: macos-latest
+    steps:
+     - uses: actions/checkout@v3
+     - name: P12 Cracker
+       run: |
+            chmod +x cracker
